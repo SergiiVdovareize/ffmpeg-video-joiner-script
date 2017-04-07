@@ -1,9 +1,9 @@
 # ffmpeg-video-joiner-script
 
 ## Description:
-batch file to search and join video segments into single video
+Batch file to search and join video segments into a single video. Developed for **itleague.kharkov.ua** needs.
 
 ## Dependencies:
 ffmpeg - https://ffmpeg.org/download.html
 
-Download the library, unpack whereever you want and add path to the ffmpeg/bin directory to the PATH variable
+Download the library, unpack it whereever you want and add the path to the `ffmpeg/bin` directory to the **PATH** variable.
