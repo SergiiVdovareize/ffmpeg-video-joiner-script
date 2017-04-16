@@ -29,6 +29,6 @@ Run the scipt with the source folder as a parameter:
 
 ![](https://github.com/sergeyvdovareize/ffmpeg-video-joiner-script/blob/master/screens/screen3.png)
 
-As a result we have 3 joined videos in an output folder:
+As a result we have 3 joined videos inside an output folder:
 
 ![](https://github.com/sergeyvdovareize/ffmpeg-video-joiner-script/blob/master/screens/screen4.png)
