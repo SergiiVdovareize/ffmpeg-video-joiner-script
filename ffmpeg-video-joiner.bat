@@ -28,9 +28,6 @@ for /F "tokens=1-4 delims=:.," %%a in ("%time%") do (
    set /A "start=(((%%a*60)+1%%b %% 100)*60+1%%c %% 100)*100+1%%d %% 100"
 )
 
-echo. >> %lof_file%
-echo -- Joiner script started. Time: %time% >> %lof_file% --
-
 :: use current path as a source path if dot is passed
 if "%source%" == "." set source=%cd%
 
@@ -38,9 +35,12 @@ if "%source%" == "." set source=%cd%
 if "%source%" == "" goto no_param
 if not exist %source% goto no_source
 
+cd /d %source%
+echo. >> %lof_file%
+echo -- Joiner script started. Time: %time% >> %lof_file% --
+
 :create_lists
 	:: go through all folders and creates file lists for joining by ffmpeg
-	cd /d %source%
 	echo.
 	
 	set msg=1. Go through all games to create file lists for joining
@@ -106,16 +106,12 @@ goto finish
 
 :no_param
 	echo.
-	set msg=ERROR: pass source folder as a parameter
-	echo %msg%
-	echo %msg% >> %lof_file%
+	echo ERROR: pass source folder as a parameter
 	goto finish
 	
 :no_source
 	echo.
-	set msg=ERROR: pass source folder as a parameter
-	echo %msg%
-	echo %msg% >> %lof_file%
+	echo ERROR: pass source folder as a parameter
 	goto finish
 
 :finish
