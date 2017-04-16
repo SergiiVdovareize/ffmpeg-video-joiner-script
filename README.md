@@ -32,3 +32,7 @@ Run the scipt with the source folder as a parameter:
 As a result we have 3 joined videos inside an output folder:
 
 ![](https://github.com/sergeyvdovareize/ffmpeg-video-joiner-script/blob/master/screens/screen4.png)
+
+## Known issues:
+
+ffmpeg doesn't work with some specific symbols in names, for example `'`.
