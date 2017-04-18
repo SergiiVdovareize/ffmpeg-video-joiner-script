@@ -1,7 +1,7 @@
 # ffmpeg-video-joiner-script
 
 ## Description:
-Batch file to search and join video segments into a single video. Developed for **itleague.kharkov.ua** needs.
+Batch script for searching and joining video segments into a single video. Developed for **itleague.kharkov.ua** needs.
 
 ## How it works
 The script uses a source path as a starting point. It goes through folders inside the source path, searches all video files inside that folders, sets them in time order, join them into single video (each folder - separate video) and save the result into an output folder.
