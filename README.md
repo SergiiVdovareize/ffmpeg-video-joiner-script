@@ -16,7 +16,7 @@ Download the library, unpack it whereever you want and add the path to the `ffmp
 
 `ffmpeg-video-joiner .` - (dot in the end) uses current folder as a source
 
-You can add path to the `ffmpeg-video-joiner-script.bat` file to the PATH variable then, copy the `join.bat` file to your source folder and just run it there.
+You can add the path to the `ffmpeg-video-joiner-script.bat` file to the PATH variable then, copy the `join.bat` file to your source folder and just run it there.
 
 ## Example:
 There is a source folder with 3 other folders:
