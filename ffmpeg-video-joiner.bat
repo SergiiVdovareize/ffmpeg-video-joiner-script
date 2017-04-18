@@ -140,3 +140,5 @@ goto finish
 	echo  - elapsed time: %hh%:%mm%:%ss% >> %log_file%
 	echo ---------------------------------- >> %log_file%
 	
+	echo press any key to exit
+	pause >nul
