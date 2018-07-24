@@ -11,7 +11,7 @@ ffmpeg - https://ffmpeg.org/download.html
 
 Download the library, unpack it whereever you want and add the path to the `ffmpeg/bin` directory to the **PATH** variable.
 
-## Using:
+## Usage:
 `ffmpeg-video-joiner path/to/source/folder` - uses passed path as a source
 
 `ffmpeg-video-joiner .` - (dot in the end) uses current folder as a source
